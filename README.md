@@ -27,3 +27,27 @@ API ini mengelola daftar sepatu yang sedang dicuci dengan operasi CRUD (Create, 
   "price": "numeric",
   "created_at": "timestamp"
 }
+
+## Contoh request & response
+Lihat file dokumentasi di folder examples atau contoh pada README di bagian atas (sama seperti yang ada dalam README ini).
+
+### Instalasi lokal
+
+1. Clone repo:
+git clone https://github.com/<username>/<repo>.git
+cd <repo>
+2. Install:
+npm install
+3. Buat table di Supabase (SQL di supabase-schema.sql) — paste SQL ke SQL Editor Supabase.
+4. Tambahkan environment variables. Buat file .env berdasarkan .env.example:
+SUPABASE_URL=...
+SUPABASE_KEY=...
+PORT=3000
+5. Jalankan server (development):
+npm run dev
+
+Server akan berjalan di http://localhost:3000 (atau PORT yang kamu tentukan).
+
+### Contoh curl
+Ambil items dengan status Selesai:
+curl "https://<your-vercel-url>/api/items?status=Selesai"
