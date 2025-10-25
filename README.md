@@ -27,6 +27,7 @@ API ini mengelola daftar sepatu yang sedang dicuci dengan operasi CRUD (Create, 
   "price": "numeric",
   "created_at": "timestamp"
 }
+```
 
 ## Contoh request & response
 Lihat file dokumentasi di folder examples atau contoh pada README di bagian atas (sama seperti yang ada dalam README ini).
