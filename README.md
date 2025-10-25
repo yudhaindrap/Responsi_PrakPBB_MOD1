@@ -1,6 +1,6 @@
 # YUDHA INDRA PRAJA
 # 21120123140143
-# Praktikum PPB / SHift 05 / Kel 29
+# Praktikum PPB / Shift 05 / Kel 29
 
 # Cuci Sepatu API
 
@@ -35,28 +35,28 @@ Lihat file dokumentasi di folder examples atau contoh pada README di bagian atas
 ### Instalasi lokal
 
 1. Clone repo:
-git clone https://github.com/<username>/<repo>.git
+   git clone https://github.com/<username>/<repo>.git
 
-cd <repo>
+   cd <repo>
 2. Install:
 
-npm install
+   npm install
 
 3. Buat table di Supabase (SQL di supabase-schema.sql) — paste SQL ke SQL Editor Supabase.
 
 4. Tambahkan environment variables. Buat file .env berdasarkan .env.example:
 
-SUPABASE_URL=...
+   SUPABASE_URL=...
 
-SUPABASE_KEY=...
+   SUPABASE_KEY=...
 
-PORT=3000
+   PORT=3000
 
 5. Jalankan server (development):
 
-npm run dev
+   npm run dev
 
-Server akan berjalan di http://localhost:3000 (atau PORT yang kamu tentukan).
+   Server akan berjalan di http://localhost:3000 (atau PORT yang kamu tentukan).
 
 ### Contoh curl
 Get items
